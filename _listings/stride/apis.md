@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stri
 x-kinRank: "8"
 x-alexaRank: "40723"
 tags: Recent
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recent/master/_listings/stride/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stride - Get latest messages for conversation
+  x-api-slug: sitecloudidconversationconversationidmessagerecent-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recent/master/_listings/stride/sitecloudidconversationconversationidmessagerecent-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://strava.api.gallery.streamdata.io

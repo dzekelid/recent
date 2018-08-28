@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: ATTOM
 x-complete: 1
@@ -34,8 +33,6 @@ paths:
         name: attomid
         description: attom id
       responses:
-        2:
-          description: Successful response
         200:
           description: OK
       tags:
@@ -80,4 +77,3 @@ paths:
       - Recent
       - Transaction
       - Taxes
----

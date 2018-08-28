@@ -7,11 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "264121"
 tags: Recent
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recent/master/_listings/predix/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Analytics Catalog - Get the analytic recent logs
+  x-api-slug: apiv1cataloganalyticsidlogs-get
+  description: Return the recent analytic logs
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recent/master/_listings/predix/apiv1cataloganalyticsidlogs-get-openapi.md
+- name: Analytics Framework - Get the analytic recent logs
+  x-api-slug: apiv1cataloganalyticsidlogs-get
+  description: Return the recent analytic logs
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recent/master/_listings/predix/apiv1cataloganalyticsidlogs-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io

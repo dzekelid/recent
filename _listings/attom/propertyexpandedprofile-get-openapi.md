@@ -36,8 +36,6 @@ paths:
         name: attomid
         description: attom id
       responses:
-        2:
-          description: Successful response
         200:
           description: OK
       tags:

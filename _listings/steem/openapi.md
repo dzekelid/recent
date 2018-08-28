@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Steem
 x-complete: 1
@@ -35,4 +34,3 @@ paths:
       - Get
       - Recent
       - Categories
----
